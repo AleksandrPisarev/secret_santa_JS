@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <img src="https://img.freepik.com/free-vector/smiley-santa-claus-cartoon-face-illustration_1308-158577.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+        <h1>ТАЙНЫЙ САНТА</h1>
+        <div class="autorise" id="user"></div>
+        <div class="btn autorise" onclick="logout()">выйти</div>
+        <a href="login.html" class="btn unautorise">войти</a>
+        <a href="registry.html" class="btn unautorise">регистрация</a>
+    </header>
+    <main>
+        <div onclick="clearUsers()">удалить пользователей</div>
+        <div onclick="showUsers()">показать пользователей</div>
+        <div class="users">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
